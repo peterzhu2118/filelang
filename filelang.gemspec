@@ -6,11 +6,12 @@ require "filelang/version"
 Gem::Specification.new do |spec|
   spec.name          = "filelang"
   spec.version       = Filelang::VERSION
+  spec.licenses      = ['MIT']
   spec.authors       = ["Peter Zhu"]
   spec.email         = ["peter@peterzhu.ca"]
 
   spec.summary       = %q{Detects language of files through its path}
-  spec.description   = %q{Siimple library to detect the programming language of a file through the extension of the file.}
+  spec.description   = %q{Simple library to detect the programming language of a file through the extension of the file.}
   spec.homepage      = "https://github.com/peterzhu2118/filelang"
 
   spec.files         = Dir['lib/**/*']
