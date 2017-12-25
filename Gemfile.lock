@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    filelang (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (9.1.0)
+    minitest (5.10.3)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.16)
+  byebug (~> 9.1)
+  filelang!
+  minitest (~> 5.0)
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.16.0
